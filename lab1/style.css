@@ -1,0 +1,58 @@
+li { list-style-type: square }
+
+#cena {
+    color: red;
+    font-weight: bold
+}
+
+.wstęp {
+    font-style: italic;
+}
+
+td > img {
+    border-style: solid;
+    border-color: blue;
+}
+
+td > img:hover {
+    border-style: solid;
+    border-color: red;
+}
+
+h1 + h2 {
+    letter-spacing: 5px
+}
+
+td[colspan="2"] > p {
+    font-size: small
+}
+
+p + p {
+    background: gray;
+}
+
+body {
+    background-image: url(books.png); background-repeat: repeat-y
+}
+
+h1 { color: blue }
+h1 { color: green } /* zostala zastosowana druga */
+
+/* z tagu style */
+* {
+    font-family: Tahoma
+}
+
+body {
+    margin: 5em 10em 5em 10em
+}
+
+p {
+    text-align: justify
+}
+
+h1 { color: yellow} 
+/* stosowana jest reguła z important, w innym
+     przypadku decyduje pozniejsza regula  */
+
+h1 { color: red } /* do 21 zadania*/
